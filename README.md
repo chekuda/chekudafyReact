@@ -2,10 +2,10 @@
 
 ## RUN
   Create a folder called bin in your root directory and copy this file in
-  Create an script name chekudafy in your package.json like this
-
-  - "chekudafy": "~/bin/chekudafy.zsh"
-
+  Create your alias in your bash_profile or in your ./zshrc to call it globally
+  
+  - alias chekudafy="~/bin/chekudafyReact.zsh"
+  
   From your project root folder, run the script with the following structure
 
   - First parameter => Destination, from current folder . ie: src/shared
