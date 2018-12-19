@@ -1,10 +1,12 @@
 # CHEKUDAFY REACT
 
 ## RUN
-  Create a folder called bin in your root directory and copy this file in
-  Create an script name chekudafy in your package.json like this
+  - NOTE THIS IS FOR zsh terminals only. (If you need to do it in bash, steps are similar but I dont explain them in here)
+  - Create a folder called bin in your computer root directory
+  - Copy chekudafy.zsh file in that directory
+  - Open your ~/.zshrc and add this line bellow
 
-  - "chekudafy": "~/bin/chekudafy.zsh"
+    - alias chekudafy="~/bin/createReactFolder.zsh"
 
   From your project root folder, run the script with the following structure
 
@@ -12,4 +14,5 @@
   - Second parameter => Name of folder and files
   - Third Parameter => Styles, add styles extension if you want to create styles file
 
-ie: ** npm run chekudafy src/shared/containers HomepageContainer scss**
+NOW YOU CAN USE CHEKUDAFY MAGIC
+  ie: ** chekudafy src/shared/containers HomepageContainer scss**

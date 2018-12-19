@@ -15,6 +15,8 @@ export default $NAME"
 SPECTTEMPLATE="import React from 'react'
 import { shallow } from 'enzyme'
 
+import $NAME from './$NAME'
+
 describe('given $NAME component', () => {
   describe('when trying to render the $NAME component', () => {
     it('should render the $NAME component', () => {
@@ -23,9 +25,7 @@ describe('given $NAME component', () => {
       expect(component.length).toBe(1)
     })
   })
-})
-
-export default $NAME"
+})"
 
 INDEXTEMPLATE="export { default } from './$NAME'"
 
