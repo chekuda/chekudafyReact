@@ -7,7 +7,6 @@
   - Open your ~/.zshrc and add this line bellow
 
     - alias chekudafy="~/bin/createReactFolder.zsh"
-
   From your project root folder, run the script with the following structure
 
   - First parameter => Destination, from current folder . ie: src/shared
