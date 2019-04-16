@@ -4,6 +4,7 @@
   - NOTE THIS IS FOR zsh terminals only. (If you need to do it in bash, steps are similar but I dont explain them in here)
   - Create a folder called bin in your computer root directory
   - Copy chekudafy.zsh file in that directory
+  - Add the write rights to that file using chmod
   - Open your ~/.zshrc and add this line bellow
 
     - alias chekudafy="~/bin/createReactFolder.zsh"
